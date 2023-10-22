@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "services-backups"
+version = "0.1.0"
+description = ""
+authors = ["Mohit <mohitshi@icloud.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0.0"
+boto3 = "^1.28.68"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
